@@ -1,0 +1,52 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Just+Another+Hand" rel="stylesheet">
+
+    
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Hello World Adventures</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+<h1>Hello World Adventures</h1>
+<nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Daily journal</a></li> 
+                     <li><a href="menyval2.html">Fact of the day</a></li>
+                    <li><a href="menyval3.html">Names and introductions</a></li>
+                </ul>
+            </div>
+        </nav>
+<p><b>Nemi:</b> That´s me, hi. I´m tall and awkward. I make bad puns and watch Youtube.</p>
+<p><b>Siri:</b> My roommate, she´s cool.  We hang out quite a lot so she´ll pop up from time to time.</p>
+<p><b>Agnes and Alva:</b> Two girls who live near my city so I took the train here with them and I´ll be going home with them too. They´re cool.</p>
+<p><b>Noah:</b> Guy from my group, his room is down the hall from ours.</p>
+<p><b>Irma:</b>Girl from my group, she´s very nice.</p>
+
+</body>
+</html>
