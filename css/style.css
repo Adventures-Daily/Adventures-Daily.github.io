@@ -1,0 +1,54 @@
+p {font-size:24px}
+p
+{font-family:'Annie Use Your Telescope', cursive;}
+
+<body>
+{background-color:} 
+
+
+
+h1
+{font-family: 'Just Another Hand', cursive;}
+
+p
+{text-align: left;}
+
+h1
+{text-align:center;}
+
+.navbar-inverse
+{background-color: #c2f6de}
+
+.navbar-inverse, .navbar-brand
+{font-family: 'Just Another Hand', cursive;}
+
+.navbar-inverse,.navbar-brand
+{font-size: 30px}
+
+
+
+ body {
+    background-color:#fceaea;
+}
+
+ .centrering{
+	display:flex;
+	width: 100%;
+	justify-content: center;
+}
+
+#bild.home {
+	width:100%;
+}
+
+#bild2 {
+	width: 50%;
+}
+
+#bild3 {
+	width: 100%;
+}
+
+#cookie {
+	width: 100%;
+}
